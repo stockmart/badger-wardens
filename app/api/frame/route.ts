@@ -11,7 +11,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 11</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmSxiPikXDREXrcbaKSuNr4eaq4EQNxuFsojVsdd89w3eH/10.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmdjS8XyXqz7BjMdZQJiWcX1c2UaymtmhdCCYoEXAUTbkB/10.png" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:1" content="Start your audit" />
     <meta property="fc:frame:button:1:action" content="link" />
@@ -26,7 +26,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmSxiPikXDREXrcbaKSuNr4eaq4EQNxuFsojVsdd89w3eH/${id}.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmdjS8XyXqz7BjMdZQJiWcX1c2UaymtmhdCCYoEXAUTbkB/${id}.png" />
     <meta property="fc:frame:button:1" content="Next Warden" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=${nextId}" />
   </head></html>`);
