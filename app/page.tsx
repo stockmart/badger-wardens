@@ -12,11 +12,11 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'ZetaChain Audit Top 10 Wardens',
-  description: 'A frame congratulating the Top 10 Wardens from the ZetaChain Audit by Code4rena',
+  title: 'Badger eBTC Audit Top 10 Wardens',
+  description: 'A frame congratulating the Top 10 Wardens from the Badger eBTC Audit by Code4rena',
   openGraph: {
-    title: 'ZetaChain Audit Top 10 Wardens',
-    description: 'A frame congratulating the Top 10 Wardens from the ZetaChain Audit by Code4rena',
+    title: 'Badger eBTC Audit Top 10 Wardens',
+    description: 'A frame congratulating the Top 10 Wardens from the Badger eBTC Audit by Code4rena',
     images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmdjS8XyXqz7BjMdZQJiWcX1c2UaymtmhdCCYoEXAUTbkB/0.png`],
   },
   other: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>ZetaChain Audit Top 10 Wardens</h1>
+      <h1>Badger eBTC Audit Top 10 Wardens</h1>
     </>
   );
 }
