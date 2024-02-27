@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Badger eBTC Audit Top 10 Wardens</h1>
+      <h1>Badger eBTC Audit Top 10 Wardens.</h1>
     </>
   );
 }
